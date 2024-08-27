@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes"?>
+<content xmlns:ns2="http://xml.ipsa.es/atril/contentSchema">
+   <ns2:header>
+      <ns2:source>Importacion Web Cheque Digital</ns2:source>
+      <ns2:created>2024-08-27T13:24:16.816400-03:00</ns2:created>
+      <ns2:sequence>1</ns2:sequence>
+   </ns2:header>
+   <ns2:aggregate id="A0000001">
+      <ns2:type>Informacion Lote</ns2:type>
+      <ns2:attribute>
+         <ns2:name>FechaProceso</ns2:name>
+         <ns2:value>20240827</ns2:value>
+      </ns2:attribute>
+      <ns2:attribute>
+         <ns2:name>Id_Origen</ns2:name>
+         <ns2:value>3</ns2:value>
+      </ns2:attribute>
+      <ns2:attribute>
+         <ns2:name>Norma</ns2:name>
+         <ns2:value>1</ns2:value>
+      </ns2:attribute>
+   </ns2:aggregate>
+   <ns2:aggregate id="A391000937725953">
+      <ns2:type>003</ns2:type>
+      <ns2:attribute>
+         <ns2:name>Id_Dms</ns2:name>
+         <ns2:value>391000937725953</ns2:value>
+      </ns2:attribute>
+      <ns2:parent>A0000001</ns2:parent>
+   </ns2:aggregate>
+</content>
